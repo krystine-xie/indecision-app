@@ -30,9 +30,7 @@ module.exports = (env) => {
             publicPath: '/dist/',
         },
         plugins: [
-            newMiniCssExtractPlugin({
-                filename: 'styles.css',
-            })
+            CSSExtract
         ]
     }
 }
